@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Astro-5.x-orange.svg" alt="Astro">
     <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-blue.svg" alt="Tailwind CSS">
     <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript">
-    <img src="https://img.shields.io/badge/Pages-8-brightgreen.svg" alt="Pages">
+
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
     <br>
     <a href="https://github.com/yongganjack/PersonalBlog/actions"><img src="https://github.com/yongganjack/PersonalBlog/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
@@ -140,8 +140,7 @@ PersonalBlog/
 │   ├── ISSUE_TEMPLATE/               # Issue 模板
 │   ├── PULL_REQUEST_TEMPLATE.md      # PR 模板
 │   └── workflows/
-│       ├── ci.yml                     # CI：PR 和 push 时构建检查
-│       └── deploy.yml                 # CD：自动部署到 GitHub Pages
+│       └── ci.yml                     # CI：PR 和 push 时构建检查
 │
 ├── docs/                             # 项目文档
 │   ├── ARCHITECTURE.md               #   架构说明
@@ -275,23 +274,13 @@ export const siteConfig = {
 | Netlify | `npm run build` | `dist` |
 | Cloudflare Pages | `npm run build` | `dist` |
 
-### GitHub Pages
-
-仓库已包含 GitHub Actions workflow（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）。启用步骤：
-
-1. 推送到 `main` 分支
-2. 进入仓库 Settings → Pages → Build and deployment
-3. Source 选择 **GitHub Actions**
-
-推送后自动构建并部署。详见 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)。
-
 ---
 
 ## 📚 文档
 
 - [架构说明](docs/ARCHITECTURE.md) — 运行时模型、数据流、组件边界、样式体系
 - [内容维护指南](docs/CONTENT_GUIDE.md) — 如何修改站点信息、文章、项目、图片和文案
-- [部署指南](docs/DEPLOYMENT.md) — Vercel / Netlify / Cloudflare Pages / GitHub Pages
+- [部署指南](docs/DEPLOYMENT.md) — Vercel / Netlify / Cloudflare Pages
 - [路线图](docs/ROADMAP.md) — v0.1 → v0.2 → v0.3 → 远期规划
 - [贡献指南](CONTRIBUTING.md) — 分支命名、Commit 规范、PR Checklist
 - [安全策略](SECURITY.md)
