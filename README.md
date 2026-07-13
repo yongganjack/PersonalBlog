@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript">
 
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+    <a href="https://personal-blog.jack1824871823.workers.dev/"><img src="https://img.shields.io/badge/Demo-Live-2ea44f.svg" alt="Demo"></a>
     <br>
     <a href="https://github.com/yongganjack/PersonalBlog/actions"><img src="https://github.com/yongganjack/PersonalBlog/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
     <img src="https://img.shields.io/github/last-commit/yongganjack/PersonalBlog" alt="Last Commit">
