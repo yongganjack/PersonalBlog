@@ -1,29 +1,23 @@
-<p align="center">
-  <h1 align="center">📝 Alex Blog</h1>
-  <p align="center">
-    <strong>基于 Astro + Tailwind CSS 的静态个人博客模板 — 内容优先、阅读舒适、开箱即用</strong>
-  </p>
-  <p align="center">
+<div align="center">
+  <h1>📝 Alex Blog</h1>
+  <p><strong>基于 Astro + Tailwind CSS 的静态个人博客模板 — 内容优先、阅读舒适、开箱即用</strong></p>
+  <p>
     <img src="https://img.shields.io/badge/Astro-5.x-orange.svg" alt="Astro">
     <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-blue.svg" alt="Tailwind CSS">
     <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6.svg" alt="TypeScript">
-
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-    <a href="https://personal-blog.jack1824871823.workers.dev/"><img src="https://img.shields.io/badge/demo-online-brightgreen?style=flat" alt="Demo"></a>
     <br>
     <a href="https://github.com/yongganjack/PersonalBlog/actions"><img src="https://github.com/yongganjack/PersonalBlog/actions/workflows/ci.yml/badge.svg" alt="CI Status"></a>
     <img src="https://img.shields.io/github/last-commit/yongganjack/PersonalBlog" alt="Last Commit">
     <img src="https://img.shields.io/github/repo-size/yongganjack/PersonalBlog" alt="Repo Size">
   </p>
-</p>
+</div>
 
 ---
 
 ## 📖 项目简介
 
 一个面向程序员、AI 工程师和独立开发者的静态个人博客模板。围绕「内容优先、阅读舒适、静态优先」的目标设计，内置深色模式、静态搜索、文章分类标签系统和响应式布局，帮助你把精力集中在写作上，而不是页面搭建。
-
-> 🚀 **在线演示：<https://personal-blog.jack1824871823.workers.dev/>**
 
 **核心理念：轻量、快速、好维护——让博客成为你长期写作的底座，而不是一次性展示页面。**
 
